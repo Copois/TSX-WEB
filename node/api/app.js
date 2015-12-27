@@ -51,6 +51,7 @@ server.use(redirect());
 
 
 
+require('./includes/module.js')(server);
 require('./includes/user.js')(server);
 require('./includes/report.js')(server);
 require('./includes/items.js')(server);
